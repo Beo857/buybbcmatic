@@ -1,0 +1,1012 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'web3' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData web3
+8 silly fetchNamedPackageData web3
+9 silly mapToRegistry name web3
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/web3
+13 verbose request uri https://registry.npmjs.org/web3
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 10:30:56 PM
+16 verbose request id 46d2cc8040a6f21f
+17 http request GET https://registry.npmjs.org/web3
+18 http 200 https://registry.npmjs.org/web3
+19 verbose headers { date: 'Mon, 27 Feb 2023 03:30:58 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'cf-ray': '79fdd8482dff32e1-JAX',
+19 verbose headers   'access-control-allow-origin': '*',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"ff68767fc9b512fdcdb3b9f244df018f"',
+19 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:22 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'HIT',
+19 verbose headers   'x-amz-replication-status': 'COMPLETED',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Mon, 27 Feb 2023 03:30:58 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'cf-ray': '79fdd8482dff32e1-JAX',
+20 silly get     'access-control-allow-origin': '*',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"ff68767fc9b512fdcdb3b9f244df018f"',
+20 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:22 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'HIT',
+20 silly get     'x-amz-replication-status': 'COMPLETED',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving web3 to /home/brine/.npm/registry.npmjs.org/web3/.cache.json
+22 verbose makeDirectory /home/brine/.npm creation not in flight; initializing
+23 silly makeDirectory /home/brine/.npm uid: 1000 gid: 1000
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule web3@1.8.2 checking installable status
+37 silly cache add args [ 'web3', null ]
+38 verbose cache add spec web3
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'web3',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'web3',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed web3@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for web3
+42 info addNameTag [ 'web3', 'latest' ]
+43 silly mapToRegistry name web3
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/web3
+47 verbose addNameTag registry:https://registry.npmjs.org/web3 not in flight; fetching
+48 verbose get https://registry.npmjs.org/web3 not expired, no request
+49 silly addNameTag next cb for web3 with tag latest
+50 silly addNamed web3@1.8.2
+51 verbose addNamed "1.8.2" is a plain semver version for web3
+52 silly mapToRegistry name web3
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/web3
+56 verbose addRemoteTarball https://registry.npmjs.org/web3/-/web3-1.8.2.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3/-/web3-1.8.2.tgz',
+57 verbose addRemoteTarball   '95a4e5398fd0f01325264bf8e5e8cdc69a7afe86' ]
+58 info retry fetch attempt 1 at 10:30:56 PM
+59 info attempt registry request try #1 at 10:30:56 PM
+60 http fetch GET https://registry.npmjs.org/web3/-/web3-1.8.2.tgz
+61 http fetch 200 https://registry.npmjs.org/web3/-/web3-1.8.2.tgz
+62 silly fetchAndShaCheck shasum 95a4e5398fd0f01325264bf8e5e8cdc69a7afe86
+63 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3/-/web3-1.8.2.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for web3@1.8.2
+65 silly cache afterAdd web3@1.8.2
+66 verbose afterAdd /home/brine/.npm/web3/1.8.2/package/package.json not in flight; writing
+67 verbose afterAdd /home/brine/.npm/web3/1.8.2/package/package.json written
+68 silly fetchNamedPackageData web3-bzz
+69 silly mapToRegistry name web3-bzz
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/web3-bzz
+73 silly fetchNamedPackageData web3-core
+74 silly mapToRegistry name web3-core
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/web3-core
+78 silly fetchNamedPackageData web3-eth
+79 silly mapToRegistry name web3-eth
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/web3-eth
+83 silly fetchNamedPackageData web3-eth-personal
+84 silly mapToRegistry name web3-eth-personal
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/web3-eth-personal
+88 silly fetchNamedPackageData web3-net
+89 silly mapToRegistry name web3-net
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/web3-net
+93 silly fetchNamedPackageData web3-shh
+94 silly mapToRegistry name web3-shh
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/web3-shh
+98 silly fetchNamedPackageData web3-utils
+99 silly mapToRegistry name web3-utils
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/web3-utils
+103 verbose request uri https://registry.npmjs.org/web3-bzz
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 10:30:57 PM
+106 http request GET https://registry.npmjs.org/web3-bzz
+107 verbose request uri https://registry.npmjs.org/web3-core
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:30:57 PM
+110 http request GET https://registry.npmjs.org/web3-core
+111 verbose request uri https://registry.npmjs.org/web3-eth
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 10:30:57 PM
+114 http request GET https://registry.npmjs.org/web3-eth
+115 verbose request uri https://registry.npmjs.org/web3-eth-personal
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 10:30:57 PM
+118 http request GET https://registry.npmjs.org/web3-eth-personal
+119 verbose request uri https://registry.npmjs.org/web3-net
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 10:30:57 PM
+122 http request GET https://registry.npmjs.org/web3-net
+123 verbose request uri https://registry.npmjs.org/web3-shh
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 10:30:57 PM
+126 http request GET https://registry.npmjs.org/web3-shh
+127 verbose request uri https://registry.npmjs.org/web3-utils
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 10:30:57 PM
+130 http request GET https://registry.npmjs.org/web3-utils
+131 http 200 https://registry.npmjs.org/web3-utils
+132 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+132 verbose headers   'content-type': 'application/json',
+132 verbose headers   'transfer-encoding': 'chunked',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'cf-ray': '79fdd84c6f7132ef-JAX',
+132 verbose headers   'access-control-allow-origin': '*',
+132 verbose headers   'cache-control': 'public, max-age=300',
+132 verbose headers   etag: 'W/"2f3733a4c6e9cb87d2406766ffa1fcf5"',
+132 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:08:43 GMT',
+132 verbose headers   vary: 'accept-encoding, accept',
+132 verbose headers   'cf-cache-status': 'MISS',
+132 verbose headers   'x-amz-replication-status': 'COMPLETED',
+132 verbose headers   'x-amz-server-side-encryption': 'AES256',
+132 verbose headers   server: 'cloudflare',
+132 verbose headers   'content-encoding': 'gzip' }
+133 silly get cb [ 200,
+133 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+133 silly get     'content-type': 'application/json',
+133 silly get     'transfer-encoding': 'chunked',
+133 silly get     connection: 'keep-alive',
+133 silly get     'cf-ray': '79fdd84c6f7132ef-JAX',
+133 silly get     'access-control-allow-origin': '*',
+133 silly get     'cache-control': 'public, max-age=300',
+133 silly get     etag: 'W/"2f3733a4c6e9cb87d2406766ffa1fcf5"',
+133 silly get     'last-modified': 'Mon, 30 Jan 2023 17:08:43 GMT',
+133 silly get     vary: 'accept-encoding, accept',
+133 silly get     'cf-cache-status': 'MISS',
+133 silly get     'x-amz-replication-status': 'COMPLETED',
+133 silly get     'x-amz-server-side-encryption': 'AES256',
+133 silly get     server: 'cloudflare',
+133 silly get     'content-encoding': 'gzip' } ]
+134 verbose get saving web3-utils to /home/brine/.npm/registry.npmjs.org/web3-utils/.cache.json
+135 silly resolveWithNewModule web3-utils@1.8.2 checking installable status
+136 silly cache add args [ 'web3-utils@1.8.2', null ]
+137 verbose cache add spec web3-utils@1.8.2
+138 silly cache add parsed spec Result {
+138 silly cache add   raw: 'web3-utils@1.8.2',
+138 silly cache add   scope: null,
+138 silly cache add   name: 'web3-utils',
+138 silly cache add   rawSpec: '1.8.2',
+138 silly cache add   spec: '1.8.2',
+138 silly cache add   type: 'version' }
+139 silly addNamed web3-utils@1.8.2
+140 verbose addNamed "1.8.2" is a plain semver version for web3-utils
+141 silly mapToRegistry name web3-utils
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/web3-utils
+145 verbose addNameVersion registry:https://registry.npmjs.org/web3-utils not in flight; fetching
+146 verbose get https://registry.npmjs.org/web3-utils not expired, no request
+147 silly mapToRegistry name web3-utils
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/web3-utils
+151 verbose addRemoteTarball https://registry.npmjs.org/web3-utils/-/web3-utils-1.8.2.tgz not in flight; adding
+152 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-utils/-/web3-utils-1.8.2.tgz',
+152 verbose addRemoteTarball   'c32dec5e9b955acbab220eefd7715bc540b75cc9' ]
+153 info retry fetch attempt 1 at 10:30:58 PM
+154 info attempt registry request try #1 at 10:30:58 PM
+155 http fetch GET https://registry.npmjs.org/web3-utils/-/web3-utils-1.8.2.tgz
+156 http 200 https://registry.npmjs.org/web3-bzz
+157 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+157 verbose headers   'content-type': 'application/json',
+157 verbose headers   'transfer-encoding': 'chunked',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'cf-ray': '79fdd84c1c1632e1-JAX',
+157 verbose headers   'access-control-allow-origin': '*',
+157 verbose headers   'cache-control': 'public, max-age=300',
+157 verbose headers   etag: 'W/"894645fd4388b94c8cb920a1f884bbc8"',
+157 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:08:43 GMT',
+157 verbose headers   vary: 'accept-encoding, accept',
+157 verbose headers   'cf-cache-status': 'MISS',
+157 verbose headers   'x-amz-replication-status': 'COMPLETED',
+157 verbose headers   'x-amz-server-side-encryption': 'AES256',
+157 verbose headers   server: 'cloudflare',
+157 verbose headers   'content-encoding': 'gzip' }
+158 silly get cb [ 200,
+158 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+158 silly get     'content-type': 'application/json',
+158 silly get     'transfer-encoding': 'chunked',
+158 silly get     connection: 'keep-alive',
+158 silly get     'cf-ray': '79fdd84c1c1632e1-JAX',
+158 silly get     'access-control-allow-origin': '*',
+158 silly get     'cache-control': 'public, max-age=300',
+158 silly get     etag: 'W/"894645fd4388b94c8cb920a1f884bbc8"',
+158 silly get     'last-modified': 'Mon, 30 Jan 2023 17:08:43 GMT',
+158 silly get     vary: 'accept-encoding, accept',
+158 silly get     'cf-cache-status': 'MISS',
+158 silly get     'x-amz-replication-status': 'COMPLETED',
+158 silly get     'x-amz-server-side-encryption': 'AES256',
+158 silly get     server: 'cloudflare',
+158 silly get     'content-encoding': 'gzip' } ]
+159 verbose get saving web3-bzz to /home/brine/.npm/registry.npmjs.org/web3-bzz/.cache.json
+160 silly resolveWithNewModule web3-bzz@1.8.2 checking installable status
+161 silly cache add args [ 'web3-bzz@1.8.2', null ]
+162 verbose cache add spec web3-bzz@1.8.2
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'web3-bzz@1.8.2',
+163 silly cache add   scope: null,
+163 silly cache add   name: 'web3-bzz',
+163 silly cache add   rawSpec: '1.8.2',
+163 silly cache add   spec: '1.8.2',
+163 silly cache add   type: 'version' }
+164 silly addNamed web3-bzz@1.8.2
+165 verbose addNamed "1.8.2" is a plain semver version for web3-bzz
+166 silly mapToRegistry name web3-bzz
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/web3-bzz
+170 verbose addNameVersion registry:https://registry.npmjs.org/web3-bzz not in flight; fetching
+171 verbose get https://registry.npmjs.org/web3-bzz not expired, no request
+172 silly mapToRegistry name web3-bzz
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/web3-bzz
+176 verbose addRemoteTarball https://registry.npmjs.org/web3-bzz/-/web3-bzz-1.8.2.tgz not in flight; adding
+177 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-bzz/-/web3-bzz-1.8.2.tgz',
+177 verbose addRemoteTarball   '67ea1c775874056250eece551ded22905ed08784' ]
+178 info retry fetch attempt 1 at 10:30:58 PM
+179 info attempt registry request try #1 at 10:30:58 PM
+180 http fetch GET https://registry.npmjs.org/web3-bzz/-/web3-bzz-1.8.2.tgz
+181 http 200 https://registry.npmjs.org/web3-net
+182 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+182 verbose headers   'content-type': 'application/json',
+182 verbose headers   'transfer-encoding': 'chunked',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'cf-ray': '79fdd84c6cf832db-JAX',
+182 verbose headers   'access-control-allow-origin': '*',
+182 verbose headers   'cache-control': 'public, max-age=300',
+182 verbose headers   etag: 'W/"90fc8dea402ffbfbdc8ce6095156e116"',
+182 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:07 GMT',
+182 verbose headers   vary: 'accept-encoding, accept',
+182 verbose headers   'cf-cache-status': 'MISS',
+182 verbose headers   'x-amz-replication-status': 'COMPLETED',
+182 verbose headers   'x-amz-server-side-encryption': 'AES256',
+182 verbose headers   server: 'cloudflare',
+182 verbose headers   'content-encoding': 'gzip' }
+183 silly get cb [ 200,
+183 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+183 silly get     'content-type': 'application/json',
+183 silly get     'transfer-encoding': 'chunked',
+183 silly get     connection: 'keep-alive',
+183 silly get     'cf-ray': '79fdd84c6cf832db-JAX',
+183 silly get     'access-control-allow-origin': '*',
+183 silly get     'cache-control': 'public, max-age=300',
+183 silly get     etag: 'W/"90fc8dea402ffbfbdc8ce6095156e116"',
+183 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:07 GMT',
+183 silly get     vary: 'accept-encoding, accept',
+183 silly get     'cf-cache-status': 'MISS',
+183 silly get     'x-amz-replication-status': 'COMPLETED',
+183 silly get     'x-amz-server-side-encryption': 'AES256',
+183 silly get     server: 'cloudflare',
+183 silly get     'content-encoding': 'gzip' } ]
+184 verbose get saving web3-net to /home/brine/.npm/registry.npmjs.org/web3-net/.cache.json
+185 http 200 https://registry.npmjs.org/web3-eth-personal
+186 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+186 verbose headers   'content-type': 'application/json',
+186 verbose headers   'transfer-encoding': 'chunked',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'cf-ray': '79fdd84c6cf732db-JAX',
+186 verbose headers   'access-control-allow-origin': '*',
+186 verbose headers   'cache-control': 'public, max-age=300',
+186 verbose headers   etag: 'W/"685d79794d5c37c75e3ce74a38a8b159"',
+186 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:09 GMT',
+186 verbose headers   vary: 'accept-encoding, accept',
+186 verbose headers   'cf-cache-status': 'MISS',
+186 verbose headers   'x-amz-replication-status': 'COMPLETED',
+186 verbose headers   'x-amz-server-side-encryption': 'AES256',
+186 verbose headers   server: 'cloudflare',
+186 verbose headers   'content-encoding': 'gzip' }
+187 silly get cb [ 200,
+187 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+187 silly get     'content-type': 'application/json',
+187 silly get     'transfer-encoding': 'chunked',
+187 silly get     connection: 'keep-alive',
+187 silly get     'cf-ray': '79fdd84c6cf732db-JAX',
+187 silly get     'access-control-allow-origin': '*',
+187 silly get     'cache-control': 'public, max-age=300',
+187 silly get     etag: 'W/"685d79794d5c37c75e3ce74a38a8b159"',
+187 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:09 GMT',
+187 silly get     vary: 'accept-encoding, accept',
+187 silly get     'cf-cache-status': 'MISS',
+187 silly get     'x-amz-replication-status': 'COMPLETED',
+187 silly get     'x-amz-server-side-encryption': 'AES256',
+187 silly get     server: 'cloudflare',
+187 silly get     'content-encoding': 'gzip' } ]
+188 verbose get saving web3-eth-personal to /home/brine/.npm/registry.npmjs.org/web3-eth-personal/.cache.json
+189 http fetch 200 https://registry.npmjs.org/web3-utils/-/web3-utils-1.8.2.tgz
+190 silly fetchAndShaCheck shasum c32dec5e9b955acbab220eefd7715bc540b75cc9
+191 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-utils/-/web3-utils-1.8.2.tgz not in flight; adding
+192 verbose addTmpTarball already have metadata; skipping unpack for web3-utils@1.8.2
+193 silly resolveWithNewModule web3-net@1.8.2 checking installable status
+194 silly cache add args [ 'web3-net@1.8.2', null ]
+195 verbose cache add spec web3-net@1.8.2
+196 silly cache add parsed spec Result {
+196 silly cache add   raw: 'web3-net@1.8.2',
+196 silly cache add   scope: null,
+196 silly cache add   name: 'web3-net',
+196 silly cache add   rawSpec: '1.8.2',
+196 silly cache add   spec: '1.8.2',
+196 silly cache add   type: 'version' }
+197 silly addNamed web3-net@1.8.2
+198 verbose addNamed "1.8.2" is a plain semver version for web3-net
+199 silly mapToRegistry name web3-net
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry uri https://registry.npmjs.org/web3-net
+203 verbose addNameVersion registry:https://registry.npmjs.org/web3-net not in flight; fetching
+204 silly resolveWithNewModule web3-eth-personal@1.8.2 checking installable status
+205 silly cache add args [ 'web3-eth-personal@1.8.2', null ]
+206 verbose cache add spec web3-eth-personal@1.8.2
+207 silly cache add parsed spec Result {
+207 silly cache add   raw: 'web3-eth-personal@1.8.2',
+207 silly cache add   scope: null,
+207 silly cache add   name: 'web3-eth-personal',
+207 silly cache add   rawSpec: '1.8.2',
+207 silly cache add   spec: '1.8.2',
+207 silly cache add   type: 'version' }
+208 silly addNamed web3-eth-personal@1.8.2
+209 verbose addNamed "1.8.2" is a plain semver version for web3-eth-personal
+210 silly mapToRegistry name web3-eth-personal
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry uri https://registry.npmjs.org/web3-eth-personal
+214 verbose addNameVersion registry:https://registry.npmjs.org/web3-eth-personal not in flight; fetching
+215 verbose get https://registry.npmjs.org/web3-net not expired, no request
+216 verbose get https://registry.npmjs.org/web3-eth-personal not expired, no request
+217 silly mapToRegistry name web3-net
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/web3-net
+221 verbose addRemoteTarball https://registry.npmjs.org/web3-net/-/web3-net-1.8.2.tgz not in flight; adding
+222 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-net/-/web3-net-1.8.2.tgz',
+222 verbose addRemoteTarball   '97e1e0015fabc4cda31017813e98d0b5468dd04f' ]
+223 http fetch 200 https://registry.npmjs.org/web3-bzz/-/web3-bzz-1.8.2.tgz
+224 silly mapToRegistry name web3-eth-personal
+225 silly mapToRegistry using default registry
+226 silly mapToRegistry registry https://registry.npmjs.org/
+227 silly mapToRegistry uri https://registry.npmjs.org/web3-eth-personal
+228 verbose addRemoteTarball https://registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-1.8.2.tgz not in flight; adding
+229 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-1.8.2.tgz',
+229 verbose addRemoteTarball   '3526c1ebaa4e7bf3a0a8ec77e34f067cc9a750b2' ]
+230 silly fetchAndShaCheck shasum 67ea1c775874056250eece551ded22905ed08784
+231 info retry fetch attempt 1 at 10:30:58 PM
+232 info attempt registry request try #1 at 10:30:58 PM
+233 http fetch GET https://registry.npmjs.org/web3-net/-/web3-net-1.8.2.tgz
+234 info retry fetch attempt 1 at 10:30:58 PM
+235 info attempt registry request try #1 at 10:30:58 PM
+236 http fetch GET https://registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-1.8.2.tgz
+237 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-bzz/-/web3-bzz-1.8.2.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for web3-bzz@1.8.2
+239 http 200 https://registry.npmjs.org/web3-shh
+240 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+240 verbose headers   'content-type': 'application/json',
+240 verbose headers   'transfer-encoding': 'chunked',
+240 verbose headers   connection: 'keep-alive',
+240 verbose headers   'cf-ray': '79fdd84c6f7332ef-JAX',
+240 verbose headers   'access-control-allow-origin': '*',
+240 verbose headers   'cache-control': 'public, max-age=300',
+240 verbose headers   etag: 'W/"a4860c2fc48e7bfc707686ac27fd4271"',
+240 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:12 GMT',
+240 verbose headers   vary: 'accept-encoding, accept',
+240 verbose headers   'cf-cache-status': 'MISS',
+240 verbose headers   'x-amz-replication-status': 'COMPLETED',
+240 verbose headers   'x-amz-server-side-encryption': 'AES256',
+240 verbose headers   server: 'cloudflare',
+240 verbose headers   'content-encoding': 'gzip' }
+241 silly get cb [ 200,
+241 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+241 silly get     'content-type': 'application/json',
+241 silly get     'transfer-encoding': 'chunked',
+241 silly get     connection: 'keep-alive',
+241 silly get     'cf-ray': '79fdd84c6f7332ef-JAX',
+241 silly get     'access-control-allow-origin': '*',
+241 silly get     'cache-control': 'public, max-age=300',
+241 silly get     etag: 'W/"a4860c2fc48e7bfc707686ac27fd4271"',
+241 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:12 GMT',
+241 silly get     vary: 'accept-encoding, accept',
+241 silly get     'cf-cache-status': 'MISS',
+241 silly get     'x-amz-replication-status': 'COMPLETED',
+241 silly get     'x-amz-server-side-encryption': 'AES256',
+241 silly get     server: 'cloudflare',
+241 silly get     'content-encoding': 'gzip' } ]
+242 verbose get saving web3-shh to /home/brine/.npm/registry.npmjs.org/web3-shh/.cache.json
+243 silly cache afterAdd web3-utils@1.8.2
+244 verbose afterAdd /home/brine/.npm/web3-utils/1.8.2/package/package.json not in flight; writing
+245 verbose afterAdd /home/brine/.npm/web3-utils/1.8.2/package/package.json written
+246 http 200 https://registry.npmjs.org/web3-eth
+247 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+247 verbose headers   'content-type': 'application/json',
+247 verbose headers   'transfer-encoding': 'chunked',
+247 verbose headers   connection: 'keep-alive',
+247 verbose headers   'cf-ray': '79fdd84c7f6332d5-JAX',
+247 verbose headers   'access-control-allow-origin': '*',
+247 verbose headers   'cache-control': 'public, max-age=300',
+247 verbose headers   etag: 'W/"bdb3595f2118a36b8cb5d98659de978d"',
+247 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:12 GMT',
+247 verbose headers   vary: 'accept-encoding, accept',
+247 verbose headers   'cf-cache-status': 'MISS',
+247 verbose headers   'x-amz-replication-status': 'COMPLETED',
+247 verbose headers   'x-amz-server-side-encryption': 'AES256',
+247 verbose headers   server: 'cloudflare',
+247 verbose headers   'content-encoding': 'gzip' }
+248 silly get cb [ 200,
+248 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+248 silly get     'content-type': 'application/json',
+248 silly get     'transfer-encoding': 'chunked',
+248 silly get     connection: 'keep-alive',
+248 silly get     'cf-ray': '79fdd84c7f6332d5-JAX',
+248 silly get     'access-control-allow-origin': '*',
+248 silly get     'cache-control': 'public, max-age=300',
+248 silly get     etag: 'W/"bdb3595f2118a36b8cb5d98659de978d"',
+248 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:12 GMT',
+248 silly get     vary: 'accept-encoding, accept',
+248 silly get     'cf-cache-status': 'MISS',
+248 silly get     'x-amz-replication-status': 'COMPLETED',
+248 silly get     'x-amz-server-side-encryption': 'AES256',
+248 silly get     server: 'cloudflare',
+248 silly get     'content-encoding': 'gzip' } ]
+249 verbose get saving web3-eth to /home/brine/.npm/registry.npmjs.org/web3-eth/.cache.json
+250 http 200 https://registry.npmjs.org/web3-core
+251 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+251 verbose headers   'content-type': 'application/json',
+251 verbose headers   'transfer-encoding': 'chunked',
+251 verbose headers   connection: 'keep-alive',
+251 verbose headers   'cf-ray': '79fdd84c7a4132fe-JAX',
+251 verbose headers   'access-control-allow-origin': '*',
+251 verbose headers   'cache-control': 'public, max-age=300',
+251 verbose headers   etag: 'W/"051f520a9f01f0ab48ea9d0ce55c4b95"',
+251 verbose headers   'last-modified': 'Mon, 30 Jan 2023 17:09:02 GMT',
+251 verbose headers   vary: 'accept-encoding, accept',
+251 verbose headers   'cf-cache-status': 'MISS',
+251 verbose headers   'x-amz-replication-status': 'COMPLETED',
+251 verbose headers   'x-amz-server-side-encryption': 'AES256',
+251 verbose headers   server: 'cloudflare',
+251 verbose headers   'content-encoding': 'gzip' }
+252 silly get cb [ 200,
+252 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+252 silly get     'content-type': 'application/json',
+252 silly get     'transfer-encoding': 'chunked',
+252 silly get     connection: 'keep-alive',
+252 silly get     'cf-ray': '79fdd84c7a4132fe-JAX',
+252 silly get     'access-control-allow-origin': '*',
+252 silly get     'cache-control': 'public, max-age=300',
+252 silly get     etag: 'W/"051f520a9f01f0ab48ea9d0ce55c4b95"',
+252 silly get     'last-modified': 'Mon, 30 Jan 2023 17:09:02 GMT',
+252 silly get     vary: 'accept-encoding, accept',
+252 silly get     'cf-cache-status': 'MISS',
+252 silly get     'x-amz-replication-status': 'COMPLETED',
+252 silly get     'x-amz-server-side-encryption': 'AES256',
+252 silly get     server: 'cloudflare',
+252 silly get     'content-encoding': 'gzip' } ]
+253 verbose get saving web3-core to /home/brine/.npm/registry.npmjs.org/web3-core/.cache.json
+254 silly resolveWithNewModule web3-shh@1.8.2 checking installable status
+255 silly cache add args [ 'web3-shh@1.8.2', null ]
+256 verbose cache add spec web3-shh@1.8.2
+257 silly cache add parsed spec Result {
+257 silly cache add   raw: 'web3-shh@1.8.2',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'web3-shh',
+257 silly cache add   rawSpec: '1.8.2',
+257 silly cache add   spec: '1.8.2',
+257 silly cache add   type: 'version' }
+258 silly addNamed web3-shh@1.8.2
+259 verbose addNamed "1.8.2" is a plain semver version for web3-shh
+260 silly mapToRegistry name web3-shh
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry uri https://registry.npmjs.org/web3-shh
+264 verbose addNameVersion registry:https://registry.npmjs.org/web3-shh not in flight; fetching
+265 verbose get https://registry.npmjs.org/web3-shh not expired, no request
+266 silly cache afterAdd web3-bzz@1.8.2
+267 verbose afterAdd /home/brine/.npm/web3-bzz/1.8.2/package/package.json not in flight; writing
+268 http fetch 200 https://registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-1.8.2.tgz
+269 http fetch 200 https://registry.npmjs.org/web3-net/-/web3-net-1.8.2.tgz
+270 silly mapToRegistry name web3-shh
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry uri https://registry.npmjs.org/web3-shh
+274 verbose addRemoteTarball https://registry.npmjs.org/web3-shh/-/web3-shh-1.8.2.tgz not in flight; adding
+275 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-shh/-/web3-shh-1.8.2.tgz',
+275 verbose addRemoteTarball   '217a417f0d6e243dd4d441848ffc2bd164cea8a0' ]
+276 silly resolveWithNewModule web3-eth@1.8.2 checking installable status
+277 silly cache add args [ 'web3-eth@1.8.2', null ]
+278 verbose cache add spec web3-eth@1.8.2
+279 silly cache add parsed spec Result {
+279 silly cache add   raw: 'web3-eth@1.8.2',
+279 silly cache add   scope: null,
+279 silly cache add   name: 'web3-eth',
+279 silly cache add   rawSpec: '1.8.2',
+279 silly cache add   spec: '1.8.2',
+279 silly cache add   type: 'version' }
+280 silly addNamed web3-eth@1.8.2
+281 verbose addNamed "1.8.2" is a plain semver version for web3-eth
+282 silly mapToRegistry name web3-eth
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry uri https://registry.npmjs.org/web3-eth
+286 verbose addNameVersion registry:https://registry.npmjs.org/web3-eth not in flight; fetching
+287 silly fetchAndShaCheck shasum 97e1e0015fabc4cda31017813e98d0b5468dd04f
+288 info retry fetch attempt 1 at 10:30:58 PM
+289 info attempt registry request try #1 at 10:30:58 PM
+290 http fetch GET https://registry.npmjs.org/web3-shh/-/web3-shh-1.8.2.tgz
+291 silly fetchAndShaCheck shasum 3526c1ebaa4e7bf3a0a8ec77e34f067cc9a750b2
+292 verbose afterAdd /home/brine/.npm/web3-bzz/1.8.2/package/package.json written
+293 silly resolveWithNewModule web3-core@1.8.2 checking installable status
+294 silly cache add args [ 'web3-core@1.8.2', null ]
+295 verbose cache add spec web3-core@1.8.2
+296 silly cache add parsed spec Result {
+296 silly cache add   raw: 'web3-core@1.8.2',
+296 silly cache add   scope: null,
+296 silly cache add   name: 'web3-core',
+296 silly cache add   rawSpec: '1.8.2',
+296 silly cache add   spec: '1.8.2',
+296 silly cache add   type: 'version' }
+297 silly addNamed web3-core@1.8.2
+298 verbose addNamed "1.8.2" is a plain semver version for web3-core
+299 silly mapToRegistry name web3-core
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry uri https://registry.npmjs.org/web3-core
+303 verbose addNameVersion registry:https://registry.npmjs.org/web3-core not in flight; fetching
+304 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-net/-/web3-net-1.8.2.tgz not in flight; adding
+305 verbose addTmpTarball already have metadata; skipping unpack for web3-net@1.8.2
+306 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-1.8.2.tgz not in flight; adding
+307 verbose addTmpTarball already have metadata; skipping unpack for web3-eth-personal@1.8.2
+308 verbose get https://registry.npmjs.org/web3-eth not expired, no request
+309 silly mapToRegistry name web3-eth
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry uri https://registry.npmjs.org/web3-eth
+313 verbose addRemoteTarball https://registry.npmjs.org/web3-eth/-/web3-eth-1.8.2.tgz not in flight; adding
+314 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-eth/-/web3-eth-1.8.2.tgz',
+314 verbose addRemoteTarball   '8562287ae1803c30eb54dc7d832092e5739ce06a' ]
+315 verbose get https://registry.npmjs.org/web3-core not expired, no request
+316 silly mapToRegistry name web3-core
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry uri https://registry.npmjs.org/web3-core
+320 verbose addRemoteTarball https://registry.npmjs.org/web3-core/-/web3-core-1.8.2.tgz not in flight; adding
+321 verbose addRemoteTarball [ 'https://registry.npmjs.org/web3-core/-/web3-core-1.8.2.tgz',
+321 verbose addRemoteTarball   '333e93d7872b1a36efe758ed8b89a7acbdd962c2' ]
+322 info retry fetch attempt 1 at 10:30:58 PM
+323 info attempt registry request try #1 at 10:30:58 PM
+324 http fetch GET https://registry.npmjs.org/web3-eth/-/web3-eth-1.8.2.tgz
+325 info retry fetch attempt 1 at 10:30:58 PM
+326 info attempt registry request try #1 at 10:30:58 PM
+327 http fetch GET https://registry.npmjs.org/web3-core/-/web3-core-1.8.2.tgz
+328 silly cache afterAdd web3-net@1.8.2
+329 verbose afterAdd /home/brine/.npm/web3-net/1.8.2/package/package.json not in flight; writing
+330 verbose afterAdd /home/brine/.npm/web3-net/1.8.2/package/package.json written
+331 silly cache afterAdd web3-eth-personal@1.8.2
+332 verbose afterAdd /home/brine/.npm/web3-eth-personal/1.8.2/package/package.json not in flight; writing
+333 verbose afterAdd /home/brine/.npm/web3-eth-personal/1.8.2/package/package.json written
+334 http fetch 200 https://registry.npmjs.org/web3-shh/-/web3-shh-1.8.2.tgz
+335 silly fetchAndShaCheck shasum 217a417f0d6e243dd4d441848ffc2bd164cea8a0
+336 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-shh/-/web3-shh-1.8.2.tgz not in flight; adding
+337 verbose addTmpTarball already have metadata; skipping unpack for web3-shh@1.8.2
+338 silly cache afterAdd web3-shh@1.8.2
+339 verbose afterAdd /home/brine/.npm/web3-shh/1.8.2/package/package.json not in flight; writing
+340 verbose afterAdd /home/brine/.npm/web3-shh/1.8.2/package/package.json written
+341 http fetch 200 https://registry.npmjs.org/web3-eth/-/web3-eth-1.8.2.tgz
+342 silly fetchAndShaCheck shasum 8562287ae1803c30eb54dc7d832092e5739ce06a
+343 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-eth/-/web3-eth-1.8.2.tgz not in flight; adding
+344 verbose addTmpTarball already have metadata; skipping unpack for web3-eth@1.8.2
+345 silly cache afterAdd web3-eth@1.8.2
+346 verbose afterAdd /home/brine/.npm/web3-eth/1.8.2/package/package.json not in flight; writing
+347 verbose afterAdd /home/brine/.npm/web3-eth/1.8.2/package/package.json written
+348 http fetch 200 https://registry.npmjs.org/web3-core/-/web3-core-1.8.2.tgz
+349 silly fetchAndShaCheck shasum 333e93d7872b1a36efe758ed8b89a7acbdd962c2
+350 verbose addTmpTarball /tmp/npm-611-4909259e/registry.npmjs.org/web3-core/-/web3-core-1.8.2.tgz not in flight; adding
+351 verbose addTmpTarball already have metadata; skipping unpack for web3-core@1.8.2
+352 silly cache afterAdd web3-core@1.8.2
+353 verbose afterAdd /home/brine/.npm/web3-core/1.8.2/package/package.json not in flight; writing
+354 verbose afterAdd /home/brine/.npm/web3-core/1.8.2/package/package.json written
+355 silly fetchNamedPackageData @types/node
+356 silly mapToRegistry name @types/node
+357 silly mapToRegistry scope (from package name) @types
+358 verbose mapToRegistry no registry URL found in name for scope @types
+359 silly mapToRegistry using default registry
+360 silly mapToRegistry registry https://registry.npmjs.org/
+361 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+362 silly fetchNamedPackageData got
+363 silly mapToRegistry name got
+364 silly mapToRegistry using default registry
+365 silly mapToRegistry registry https://registry.npmjs.org/
+366 silly mapToRegistry uri https://registry.npmjs.org/got
+367 silly fetchNamedPackageData swarm-js
+368 silly mapToRegistry name swarm-js
+369 silly mapToRegistry using default registry
+370 silly mapToRegistry registry https://registry.npmjs.org/
+371 silly mapToRegistry uri https://registry.npmjs.org/swarm-js
+372 verbose request uri https://registry.npmjs.org/@types%2fnode
+373 verbose request no auth needed
+374 info attempt registry request try #1 at 10:30:58 PM
+375 http request GET https://registry.npmjs.org/@types%2fnode
+376 verbose request uri https://registry.npmjs.org/got
+377 verbose request no auth needed
+378 info attempt registry request try #1 at 10:30:58 PM
+379 http request GET https://registry.npmjs.org/got
+380 verbose request uri https://registry.npmjs.org/swarm-js
+381 verbose request no auth needed
+382 info attempt registry request try #1 at 10:30:58 PM
+383 http request GET https://registry.npmjs.org/swarm-js
+384 http 200 https://registry.npmjs.org/@types%2fnode
+385 verbose headers { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+385 verbose headers   'content-type': 'application/json',
+385 verbose headers   'transfer-encoding': 'chunked',
+385 verbose headers   connection: 'keep-alive',
+385 verbose headers   'cf-ray': '79fdd8549cb632fe-JAX',
+385 verbose headers   'access-control-allow-origin': '*',
+385 verbose headers   'cache-control': 'public, max-age=300',
+385 verbose headers   etag: 'W/"823bd03ce128e3351e977d323661c251"',
+385 verbose headers   'last-modified': 'Sun, 26 Feb 2023 19:33:52 GMT',
+385 verbose headers   vary: 'accept-encoding, accept',
+385 verbose headers   'cf-cache-status': 'HIT',
+385 verbose headers   'x-amz-replication-status': 'COMPLETED',
+385 verbose headers   'x-amz-server-side-encryption': 'AES256',
+385 verbose headers   server: 'cloudflare',
+385 verbose headers   'content-encoding': 'gzip' }
+386 silly get cb [ 200,
+386 silly get   { date: 'Mon, 27 Feb 2023 03:30:59 GMT',
+386 silly get     'content-type': 'application/json',
+386 silly get     'transfer-encoding': 'chunked',
+386 silly get     connection: 'keep-alive',
+386 silly get     'cf-ray': '79fdd8549cb632fe-JAX',
+386 silly get     'access-control-allow-origin': '*',
+386 silly get     'cache-control': 'public, max-age=300',
+386 silly get     etag: 'W/"823bd03ce128e3351e977d323661c251"',
+386 silly get     'last-modified': 'Sun, 26 Feb 2023 19:33:52 GMT',
+386 silly get     vary: 'accept-encoding, accept',
+386 silly get     'cf-cache-status': 'HIT',
+386 silly get     'x-amz-replication-status': 'COMPLETED',
+386 silly get     'x-amz-server-side-encryption': 'AES256',
+386 silly get     server: 'cloudflare',
+386 silly get     'content-encoding': 'gzip' } ]
+387 verbose get saving @types/node to /home/brine/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+388 silly resolveWithNewModule @types/node@12.20.55 checking installable status
+389 silly cache add args [ '@types/node@^12.12.6', null ]
+390 verbose cache add spec @types/node@^12.12.6
+391 silly cache add parsed spec Result {
+391 silly cache add   raw: '@types/node@^12.12.6',
+391 silly cache add   scope: '@types',
+391 silly cache add   name: '@types/node',
+391 silly cache add   rawSpec: '^12.12.6',
+391 silly cache add   spec: '>=12.12.6 <13.0.0',
+391 silly cache add   type: 'range' }
+392 silly addNamed @types/node@>=12.12.6 <13.0.0
+393 verbose addNamed ">=12.12.6 <13.0.0" is a valid semver range for @types/node
+394 silly addNameRange { name: '@types/node',
+394 silly addNameRange   range: '>=12.12.6 <13.0.0',
+394 silly addNameRange   hasData: false }
+395 silly mapToRegistry name @types/node
+396 silly mapToRegistry scope (from package name) @types
+397 verbose mapToRegistry no registry URL found in name for scope @types
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+401 verbose addNameRange registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+402 verbose get https://registry.npmjs.org/@types%2fnode not expired, no request
+403 silly addNameRange number 2 { name: '@types/node',
+403 silly addNameRange   range: '>=12.12.6 <13.0.0',
+403 silly addNameRange   hasData: true }
+404 silly addNameRange versions [ '@types/node',
+404 silly addNameRange   [ '4.0.15-alpha',
+404 silly addNameRange     '4.0.16-alpha',
+404 silly addNameRange     '4.0.21-alpha',
+404 silly addNameRange     '4.0.22-alpha',
+404 silly addNameRange     '4.0.23-alpha',
+404 silly addNameRange     '4.0.24-alpha',
+404 silly addNameRange     '4.0.25-alpha',
+404 silly addNameRange     '4.0.26-alpha',
+404 silly addNameRange     '4.0.27-alpha',
+404 silly addNameRange     '4.0.28-alpha',
+404 silly addNameRange     '4.0.29',
+404 silly addNameRange     '4.0.30',
+404 silly addNameRange     '6.0.31',
+404 silly addNameRange     '6.0.32',
+404 silly addNameRange     '6.0.33',
+404 silly addNameRange     '6.0.34',
+404 silly addNameRange     '6.0.35',
+404 silly addNameRange     '6.0.36',
+404 silly addNameRange     '6.0.37',
+404 silly addNameRange     '6.0.38',
+404 silly addNameRange     '6.0.39',
+404 silly addNameRange     '6.0.40',
+404 silly addNameRange     '6.0.41',
+404 silly addNameRange     '6.0.42',
+404 silly addNameRange     '6.0.43',
+404 silly addNameRange     '6.0.44',
+404 silly addNameRange     '6.0.45',
+404 silly addNameRange     '6.0.46',
+404 silly addNameRange     '6.0.47',
+404 silly addNameRange     '6.0.48',
+404 silly addNameRange     '6.0.49',
+404 silly addNameRange     '6.0.50',
+404 silly addNameRange     '6.0.51',
+404 silly addNameRange     '0.0.0',
+404 silly addNameRange     '0.0.1',
+404 silly addNameRange     '0.0.2',
+404 silly addNameRange     '0.0.3',
+404 silly addNameRange     '6.0.52',
+404 silly addNameRange     '6.0.53',
+404 silly addNameRange     '6.0.54',
+404 silly addNameRange     '6.0.55',
+404 silly addNameRange     '6.0.56',
+404 silly addNameRange     '6.0.57',
+404 silly addNameRange     '6.0.58',
+404 silly addNameRange     '6.0.59',
+404 silly addNameRange     '4.2.0',
+404 silly addNameRange     '0.12.0',
+404 silly addNameRange     '7.0.0',
+404 silly addNameRange     '6.0.60',
+404 silly addNameRange     '7.0.1',
+404 silly addNameRange     '6.0.61',
+404 silly addNameRange     '7.0.2',
+404 silly addNameRange     '7.0.3',
+404 silly addNameRange     '7.0.4',
+404 silly addNameRange     '4.2.1',
+404 silly addNameRange     '6.0.62',
+404 silly addNameRange     '7.0.5',
+404 silly addNameRange     '6.0.63',
+404 silly addNameRange     '4.2.2',
+404 silly addNameRange     '0.12.1',
+404 silly addNameRange     '4.2.3',
+404 silly addNameRange     '6.0.64',
+404 silly addNameRange     '7.0.6',
+404 silly addNameRange     '6.0.65',
+404 silly addNameRange     '7.0.7',
+404 silly addNameRange     '7.0.8',
+404 silly addNameRange     '4.2.4',
+404 silly addNameRange     '0.12.2',
+404 silly addNameRange     '6.0.66',
+404 silly addNameRange     '7.0.9',
+404 silly addNameRange     '7.0.10',
+404 silly addNameRange     '7.0.11',
+404 silly addNameRange     '6.0.67',
+404 silly addNameRange     '6.0.68',
+404 silly addNameRange     '7.0.12',
+404 silly addNameRange     '4.2.5',
+404 silly addNameRange     '0.12.3',
+404 silly addNameRange     '6.0.69',
+404 silly addNameRange     '0.12.4',
+404 silly addNameRange     '4.2.6',
+404 silly addNameRange     '6.0.70',
+404 silly addNameRange     '7.0.13',
+404 silly addNameRange     '7.0.14',
+404 silly addNameRange     '6.0.71',
+404 silly addNameRange     '7.0.15',
+404 silly addNameRange     '4.2.7',
+404 silly addNameRange     '6.0.72',
+404 silly addNameRange     '7.0.16',
+404 silly addNameRange     '7.0.17',
+404 silly addNameRange     '7.0.18',
+404 silly addNameRange     '4.2.8',
+404 silly addNameRange     '6.0.73',
+404 silly addNameRange     '7.0.19',
+404 silly addNameRange     '7.0.20',
+404 silly addNameRange     '7.0.21',
+404 silly addNameRange     '7.0.22',
+404 silly addNameRange     '6.0.74',
+404 silly addNameRange     '7.0.23',
+404 silly addNameRange     '7.0.24',
+404 silly addNameRange     '6.0.75',
+404 silly addNameRange     ... 1386 more items ] ]
+405 silly addNamed @types/node@12.20.55
+406 verbose addNamed "12.20.55" is a plain semver version for @types/node
+407 silly mapToRegistry name @types/node
+408 silly mapToRegistry scope (from package name) @types
+409 verbose mapToRegistry no registry URL found in name for scope @types
+410 silly mapToRegistry using default registry
+411 silly mapToRegistry registry https://registry.npmjs.org/
+412 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+413 verbose addRemoteTarball https://registry.npmjs.org/@types/node/-/node-12.20.55.tgz not in flight; adding
+414 verbose addRemoteTarball [ 'https://registry.npmjs.org/@types/node/-/node-12.20.55.tgz',
+414 verbose addRemoteTarball   'c329cbd434c42164f846b909bd6f85b5537f6240' ]
+415 info retry fetch attempt 1 at 10:30:59 PM
+416 info attempt registry request try #1 at 10:30:59 PM
+417 http fetch GET https://registry.npmjs.org/@types/node/-/node-12.20.55.tgz
+418 http 200 https://registry.npmjs.org/swarm-js
+419 verbose headers { date: 'Mon, 27 Feb 2023 03:31:00 GMT',
+419 verbose headers   'content-type': 'application/json',
+419 verbose headers   'transfer-encoding': 'chunked',
+419 verbose headers   connection: 'keep-alive',
+419 verbose headers   'cf-ray': '79fdd85498fe32db-JAX',
+419 verbose headers   'access-control-allow-origin': '*',
+419 verbose headers   'cache-control': 'public, max-age=300',
+419 verbose headers   etag: 'W/"c1ba6f243c95bdc12b4778e684c0e3d0"',
+419 verbose headers   'last-modified': 'Thu, 08 Sep 2022 20:13:55 GMT',
+419 verbose headers   vary: 'accept-encoding, accept',
+419 verbose headers   'cf-cache-status': 'MISS',
+419 verbose headers   'x-amz-replication-status': 'COMPLETED',
+419 verbose headers   server: 'cloudflare',
+419 verbose headers   'content-encoding': 'gzip' }
+420 silly get cb [ 200,
+420 silly get   { date: 'Mon, 27 Feb 2023 03:31:00 GMT',
+420 silly get     'content-type': 'application/json',
+420 silly get     'transfer-encoding': 'chunked',
+420 silly get     connection: 'keep-alive',
+420 silly get     'cf-ray': '79fdd85498fe32db-JAX',
+420 silly get     'access-control-allow-origin': '*',
+420 silly get     'cache-control': 'public, max-age=300',
+420 silly get     etag: 'W/"c1ba6f243c95bdc12b4778e684c0e3d0"',
+420 silly get     'last-modified': 'Thu, 08 Sep 2022 20:13:55 GMT',
+420 silly get     vary: 'accept-encoding, accept',
+420 silly get     'cf-cache-status': 'MISS',
+420 silly get     'x-amz-replication-status': 'COMPLETED',
+420 silly get     server: 'cloudflare',
+420 silly get     'content-encoding': 'gzip' } ]
+421 verbose get saving swarm-js to /home/brine/.npm/registry.npmjs.org/swarm-js/.cache.json
+422 silly resolveWithNewModule swarm-js@0.1.42 checking installable status
+423 silly cache add args [ 'swarm-js@^0.1.40', null ]
+424 verbose cache add spec swarm-js@^0.1.40
+425 silly cache add parsed spec Result {
+425 silly cache add   raw: 'swarm-js@^0.1.40',
+425 silly cache add   scope: null,
+425 silly cache add   name: 'swarm-js',
+425 silly cache add   rawSpec: '^0.1.40',
+425 silly cache add   spec: '>=0.1.40 <0.2.0',
+425 silly cache add   type: 'range' }
+426 silly addNamed swarm-js@>=0.1.40 <0.2.0
+427 verbose addNamed ">=0.1.40 <0.2.0" is a valid semver range for swarm-js
+428 silly addNameRange { name: 'swarm-js', range: '>=0.1.40 <0.2.0', hasData: false }
+429 silly mapToRegistry name swarm-js
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry uri https://registry.npmjs.org/swarm-js
+433 verbose addNameRange registry:https://registry.npmjs.org/swarm-js not in flight; fetching
+434 verbose get https://registry.npmjs.org/swarm-js not expired, no request
+435 silly addNameRange number 2 { name: 'swarm-js', range: '>=0.1.40 <0.2.0', hasData: true }
+436 silly addNameRange versions [ 'swarm-js',
+436 silly addNameRange   [ '0.1.0',
+436 silly addNameRange     '0.1.1',
+436 silly addNameRange     '0.1.3',
+436 silly addNameRange     '0.1.4',
+436 silly addNameRange     '0.1.5',
+436 silly addNameRange     '0.1.6',
+436 silly addNameRange     '0.1.7',
+436 silly addNameRange     '0.1.8',
+436 silly addNameRange     '0.1.9',
+436 silly addNameRange     '0.1.10',
+436 silly addNameRange     '0.1.11',
+436 silly addNameRange     '0.1.12',
+436 silly addNameRange     '0.1.13',
+436 silly addNameRange     '0.1.14',
+436 silly addNameRange     '0.1.15',
+436 silly addNameRange     '0.1.16',
+436 silly addNameRange     '0.1.17',
+436 silly addNameRange     '0.1.18',
+436 silly addNameRange     '0.1.19',
+436 silly addNameRange     '0.1.20',
+436 silly addNameRange     '0.1.21',
+436 silly addNameRange     '0.1.22',
+436 silly addNameRange     '0.1.23',
+436 silly addNameRange     '0.1.24',
+436 silly addNameRange     '0.1.25',
+436 silly addNameRange     '0.1.26',
+436 silly addNameRange     '0.1.27',
+436 silly addNameRange     '0.1.28',
+436 silly addNameRange     '0.1.29',
+436 silly addNameRange     '0.1.30',
+436 silly addNameRange     '0.1.33',
+436 silly addNameRange     '0.1.34',
+436 silly addNameRange     '0.1.35',
+436 silly addNameRange     '0.1.36',
+436 silly addNameRange     '0.1.37',
+436 silly addNameRange     '0.1.38',
+436 silly addNameRange     '0.1.39',
+436 silly addNameRange     '0.1.40',
+436 silly addNameRange     '0.1.42' ] ]
+437 silly addNamed swarm-js@0.1.42
+438 verbose addNamed "0.1.42" is a plain semver version for swarm-js
+439 silly mapToRegistry name swarm-js
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/swarm-js
+443 verbose addRemoteTarball https://registry.npmjs.org/swarm-js/-/swarm-js-0.1.42.tgz not in flight; adding
+444 verbose addRemoteTarball [ 'https://registry.npmjs.org/swarm-js/-/swarm-js-0.1.42.tgz',
+444 verbose addRemoteTarball   '497995c62df6696f6e22372f457120e43e727979' ]
+445 info retry fetch attempt 1 at 10:30:59 PM
+446 info attempt registry request try #1 at 10:30:59 PM
+447 http fetch GET https://registry.npmjs.org/swarm-js/-/swarm-js-0.1.42.tgz
+448 http 200 https://registry.npmjs.org/got
+449 verbose headers { date: 'Mon, 27 Feb 2023 03:31:00 GMT',
+449 verbose headers   'content-type': 'application/json',
+449 verbose headers   'transfer-encoding': 'chunked',
+449 verbose headers   connection: 'keep-alive',
+449 verbose headers   'cf-ray': '79fdd854984b32e1-JAX',
+449 verbose headers   'access-control-allow-origin': '*',
+449 verbose headers   'cache-control': 'public, max-age=300',
+449 verbose headers   etag: 'W/"c661263a70b3616dccb01f40a29d26cd"',
+449 verbose headers   'last-modified': 'Fri, 10 Feb 2023 15:05:32 GMT',
+449 verbose headers   vary: 'accept-encoding, accept',
+449 verbose headers   'cf-cache-status': 'REVALIDATED',
+449 verbose headers   'x-amz-replication-status': 'COMPLETED',
+449 verbose headers   'x-amz-server-side-encryption': 'AES256',
+449 verbose headers   server: 'cloudflare',
+449 verbose headers   'content-encoding': 'gzip' }
+450 silly get cb [ 200,
+450 silly get   { date: 'Mon, 27 Feb 2023 03:31:00 GMT',
+450 silly get     'content-type': 'application/json',
+450 silly get     'transfer-encoding': 'chunked',
+450 silly get     connection: 'keep-alive',
+450 silly get     'cf-ray': '79fdd854984b32e1-JAX',
+450 silly get     'access-control-allow-origin': '*',
+450 silly get     'cache-control': 'public, max-age=300',
+450 silly get     etag: 'W/"c661263a70b3616dccb01f40a29d26cd"',
+450 silly get     'last-modified': 'Fri, 10 Feb 2023 15:05:32 GMT',
+450 silly get     vary: 'accept-encoding, accept',
+450 silly get     'cf-cache-status': 'REVALIDATED',
+450 silly get     'x-amz-replication-status': 'COMPLETED',
+450 silly get     'x-amz-server-side-encryption': 'AES256',
+450 silly get     server: 'cloudflare',
+450 silly get     'content-encoding': 'gzip' } ]
+451 verbose get saving got to /home/brine/.npm/registry.npmjs.org/got/.cache.json
+452 verbose stack Error: Missing required argument #1
+452 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+452 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+452 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+452 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+452 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+452 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+452 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+452 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+452 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+452 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+453 verbose cwd /mnt/c/Users/Owner.DESKTOP-DMDJAUT/Documents/vscode/BBChtml
+454 error Linux 5.10.102.1-microsoft-standard-WSL2
+455 error argv "/usr/bin/node" "/usr/bin/npm" "install" "web3"
+456 error node v8.10.0
+457 error npm  v3.5.2
+458 error code EMISSINGARG
+459 error typeerror Error: Missing required argument #1
+459 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+459 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+459 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+459 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+459 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+459 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+459 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+459 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+459 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+459 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+460 error typeerror This is an error with npm itself. Please report this error at:
+460 error typeerror     <http://github.com/npm/npm/issues>
+461 verbose exit [ 1, true ]

